@@ -1,18 +1,19 @@
-## Getting Started
+# Desafio de Controle de Fluxo - Trilha Java Básico
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Badge"/>
+  <img src="https://img.shields.io/badge/DIO-%2300C4CC?style=for-the-badge" alt="DIO Badge"/>
+</p>
 
-## Folder Structure
+Este repositório contém a resolução do desafio **Controle de Fluxo** proposto pela [Digital Innovation One (DIO)](https://www.dio.me) na trilha de Java Básico.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🎯 Objetivo do Desafio
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O objetivo principal é exercitar o controle de fluxo em Java (estruturas de repetição e condicionais) e o tratamento de exceções customizadas.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+O sistema recebe dois parâmetros via terminal (números inteiros) que representam uma contagem.
+- **Lógica de Contagem:** Se os números informados forem, por exemplo, `12` e `30`, o sistema realizará um laço de repetição (`for`) com `18` ocorrências para imprimir os números incrementados: *"Imprimindo o número 1"*, *"Imprimindo o número 2"*, etc.
+- **Validação de Entrada:** Se o primeiro parâmetro for **maior ou igual** ao segundo parâmetro, o sistema lançará a exceção customizada `ParametrosInvalidosException` com a mensagem: *"O segundo parâmetro deve ser maior que o primeiro"*.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
